@@ -74,15 +74,16 @@ childsrc = ["'self'"]
 fontsrc = ["'self'", "https://fonts.gstatic.com", "https://cdn.jsdelivr.net/"]
 formaction = ["'self'"]
 framesrc = ["'self'"]
-imgsrc = ["'self'", "https://ardasevinc.goatcounter.com/count"]
+imgsrc = ["'self'", "*.vercel.app", "https://ardasevinc.goatcounter.com/count"]
 objectsrc = ["'none'"]
 stylesrc = [
   "'self'",
   "'unsafe-inline'",
   "https://fonts.googleapis.com/",
-  "https://cdn.jsdelivr.net/"
+  "https://cdn.jsdelivr.net/",
+  "*.vercel.app"
 ]
-scriptsrc = ["'self'", "'unsafe-inline'", "https://gc.zgo.at"]
+scriptsrc = ["'self'", "'unsafe-inline'", "https://gc.zgo.at", "*.vercel.app"]
 prefetchsrc = ["'self'"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
 connectsrc = ["'self'", "https://gc.zgo.at"]
