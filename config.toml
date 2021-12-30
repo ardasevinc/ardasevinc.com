@@ -83,10 +83,10 @@ stylesrc = [
   "https://cdn.jsdelivr.net/",
   "*.vercel.app"
 ]
-scriptsrc = ["'self'", "'unsafe-inline'", "https://gc.zgo.at", "*.vercel.app"]
+scriptsrc = ["'self'", "'unsafe-inline'", "https://gc.zgo.at/", "*.vercel.app"]
 prefetchsrc = ["'self'"]
 # connect-src directive – defines valid targets for to XMLHttpRequest (AJAX), WebSockets or EventSource
-connectsrc = ["'self'", "https://gc.zgo.at"]
+connectsrc = ["'self'"]
 
 [taxonomies]
 category = "categories"
