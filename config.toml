@@ -1,4 +1,4 @@
-baseURL = "ardasevinc-com-git-hugo-ardasevinc.vercel.app"
+baseURL = "."
 title = "ardasevinc"
 theme = "hugo-coder"
 languageCode = "en"
