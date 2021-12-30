@@ -10,4 +10,4 @@ In development.
 
 ## License
 
-see [License.md]
+see [license](LICENSE.md)
