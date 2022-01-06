@@ -14,8 +14,8 @@ enableEmoji = true
 [params]
 author = "Arda Sevinç"
 description = "Arda's personal website and blog"
-keywords = "blog,developer,personal, website"
-info = ["Web Developer", "Coder"]
+keywords = "blog,developer,personal,website"
+info = ["Developer"]
 avatarURL = "/images/pp2.jpg"
 #gravatar = "john.doe@example.com"
 dateFormat = "January 2, 2006"
@@ -169,7 +169,7 @@ weight = 2
 
 [languages.tr.params]
 # author = "João Ninguém"
-info = ["Web Geliştirici", "Yazılımcı"]
+info = ["Yazılım Geliştirici"]
 description = "Arda Sevinç'in kişisel web sitesi ve blog'u"
 keywords = "blog,site,kişisel,website"
 
