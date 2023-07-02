@@ -16,6 +16,7 @@ export default function RootLayout({
       <body>
         {children}
         <Analytics />
+        <a rel="me" href="https://tilde.zone/@ardasevinc" className="invisible">Mastodon</a>
       </body>
     </html>
   );
