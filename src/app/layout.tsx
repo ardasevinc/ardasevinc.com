@@ -27,6 +27,7 @@ export default function RootLayout({
       <body
         className={cn(
           'h-screen w-full antialiased font-sans',
+          raleway.variable,
           GeistSans.variable,
           GeistMono.variable
         )}
