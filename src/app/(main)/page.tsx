@@ -1,7 +1,9 @@
+import BioHero from '@/components/bio/bio-hero';
+
 const Home = () => {
   return (
     <div className='w-full h-full flex flex-col justify-center items-center'>
-      <h1 className='text-4xl font-heading mb-8'>Hey, I&apos;m Arda.</h1>
+      <BioHero />
       <p className='mb-8'>test test</p>
       <div className='flex w-full flex-wrap gap-y-6 text-lg'>
         <p>
