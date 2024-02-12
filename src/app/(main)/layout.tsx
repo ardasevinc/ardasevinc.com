@@ -9,7 +9,7 @@ const MainLayout = ({ children }: MainLayoutProps) => {
   return (
     <>
       <Header />
-      <main className='pt-[6rem] w-full h-full container'>{children}</main>
+      <main className='pt-[2.6rem] w-full h-full container'>{children}</main>
     </>
   );
 };
