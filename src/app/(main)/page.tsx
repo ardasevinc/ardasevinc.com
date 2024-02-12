@@ -1,8 +1,8 @@
 const Home = () => {
   return (
     <div className='w-full h-full flex flex-col justify-center items-center'>
-      <h1 className='text-4xl font-heading mb-8'>Hello Connor</h1>
-      <p>bye bye</p>
+      <h1 className='text-4xl font-heading mb-8'>Arda Sevinc</h1>
+      <p className='mb-8'>test test</p>
       <div className='flex w-full flex-wrap gap-y-6 text-lg'>
         <p>
           Amet exercitation qui duis mollit enim deserunt est nisi ea in aliqua
