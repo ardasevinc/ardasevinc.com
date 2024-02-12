@@ -4,8 +4,7 @@ const Home = () => {
   return (
     <div className='w-full h-full flex flex-col justify-center items-center'>
       <BioHero />
-      <p className='mb-8'>test test</p>
-      <div className='flex w-full flex-wrap gap-y-6 text-lg'>
+      <div className='mt-12 flex w-full flex-wrap gap-y-6 text-lg text-justify'>
         <p>
           Amet exercitation qui duis mollit enim deserunt est nisi ea in aliqua
           laboris minim ea. Esse enim est laboris eu occaecat ad et ad. Aute
