@@ -1,7 +1,6 @@
 'use client';
 
 import { useState } from 'react';
-import { cn } from '@/lib/utils';
 import { useMediaQuery } from 'usehooks-ts';
 import { Button } from '../ui/button';
 import {
@@ -23,6 +22,7 @@ import {
   DrawerTrigger,
 } from '@/components/ui/drawer';
 import { MenuIcon } from 'lucide-react';
+import MenuContent from '@/data/menu.json';
 
 const Menu = () => {
   const [open, setOpen] = useState(false);

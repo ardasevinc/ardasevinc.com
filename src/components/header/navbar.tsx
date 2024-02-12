@@ -1,6 +1,5 @@
-import Title from '@/components/header/title';
+import ActiveRoute from '@/components/header/active-route';
 import Menu from '@/components/header/menu';
-import Link from 'next/link';
 
 type NavbarProps = {
   children?: React.ReactNode;
@@ -9,9 +8,7 @@ type NavbarProps = {
 const Navbar = ({ children }: NavbarProps) => {
   return (
     <nav className='flex justify-between items-center'>
-      <Link href='/'>
-        <Title>Arda Sevinç</Title>
-      </Link>
+      <ActiveRoute />
       <Menu />
     </nav>
   );
