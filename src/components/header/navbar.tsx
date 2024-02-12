@@ -1,4 +1,5 @@
 import Title from '@/components/header/title';
+import Link from 'next/link';
 
 type NavbarProps = {
   children?: React.ReactNode;
@@ -7,7 +8,9 @@ type NavbarProps = {
 const Navbar = ({ children }: NavbarProps) => {
   return (
     <nav>
-      <Title>Arda Sevinç</Title>
+      <Link href='/'>
+        <Title>Arda Sevinç</Title>
+      </Link>
     </nav>
   );
 };
