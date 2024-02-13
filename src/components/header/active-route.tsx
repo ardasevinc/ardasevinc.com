@@ -9,7 +9,7 @@ const ActiveRoute = () => {
 
   return (
     <Link href={pathname}>
-      <p className='font-heading font-semibold'>
+      <p className='font-heading font-semibold md:text-lg'>
         {MenuContent.find((item) => item.href === pathname)?.label || ''}
       </p>
     </Link>
