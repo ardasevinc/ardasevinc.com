@@ -30,13 +30,13 @@ const Menu = () => {
 
   if (isDesktop) {
     return (
-      <DropdownMenu>
+      <DropdownMenu modal={false}>
         <DropdownMenuTrigger asChild>
-          <Button variant={'ghost'} asChild>
+          <Button variant={'ghost'} className='rounded-full'>
             <MenuIcon className='w-8 h-8 text-foreground' />
           </Button>
         </DropdownMenuTrigger>
-        <DropdownMenuContent>
+        <DropdownMenuContent sideOffset={20} align='end' alignOffset={10}>
           <DropdownMenuLabel>Dropdown menu label</DropdownMenuLabel>
           <DropdownMenuSeparator />
           <DropdownMenuItem>An Item</DropdownMenuItem>
@@ -50,7 +50,7 @@ const Menu = () => {
     <Drawer open={open} onOpenChange={setOpen}>
       <DrawerTrigger asChild>
         <Button variant={'ghost'} className='rounded-full p-0'>
-          <MenuIcon className='w-8 h-8 text-white' />
+          <MenuIcon className='w-8 h-8 text-foreground' />
         </Button>
       </DrawerTrigger>
       <DrawerContent>
