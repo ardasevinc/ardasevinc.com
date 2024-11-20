@@ -1,9 +1,9 @@
 ---
 interface Props {
-  title: string;
+  title?: string;
 }
 
-const { title } = Astro.props;
+const { title = 'Arda Sevinç' } = Astro.props;
 
 import '@/styles/globals.css';
 ---
