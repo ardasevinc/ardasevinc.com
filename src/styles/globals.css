@@ -67,7 +67,7 @@
 
 @font-face {
   font-family: 'TT-JTCウインM9P'; /* or try 'TT-JTCE\'EE\'CE\'i`M9P' */
-  src: url('/fonts/NIS-JTC-Win-M9.ttf') format('truetype');
+  src: url('/fonts/NIS-JTC-Win-M9.woff2') format('woff2');
   font-weight: 900;
   font-style: normal;
   font-display: swap;
